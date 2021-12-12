@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/style_user.css">
+    <title>Perfil do usuario</title>
+</head>
+<body>
+    <a href="index.html"><img class="logo" src="../static/img/netflix-logo-5.png" alt=""></a>
+    <div class="container">
+        <h1>Entrar</h1> 
+        <div class="login">
+            <input type="username" name="username" class="" placeholder="Digite seu e-mail">
+            <input type="password" name="password" placeholder="Digite sua senha">
+        </div>   
+        <button>
+            <a href="{% url 'index' %}"><h2>Entrar</h2></a>
+        </button>
+        <div class="lembrar_senha">
+            <input name="lem_senha" type="checkbox" value="lem_senha" >
+            <p>Lembre-se de mim</p>
+        </div>
+       
+    </div>
+</body>
+</html>
